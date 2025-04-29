@@ -21,9 +21,10 @@ Please refer to [data introduction](https://opencood.readthedocs.io/en/latest/md
 and [installation](https://opencood.readthedocs.io/en/latest/md_files/installation.html) guide to prepare
 data and install OpenCOOD. To see more details of OPV2V data, please check [our website.](https://mobility-lab.seas.ucla.edu/opv2v/
 
-- Supported multi-agent perception dataset:
+## Supported multi-agent perception dataset:
   - [x] [OPV2V [ICRA2022]](https://mobility-lab.seas.ucla.edu/opv2v/)
   - [x] [V2XSet [ECCV2022]](https://arxiv.org/pdf/2203.10638.pdf)
+  - note: For experiments on DAIR-V2X, please utilize the [CoAlign](https://github.com/yifanlu0227/CoAlign) framework.
 ## Quick Start
 ### Data sequence visualization
 To quickly visualize the LiDAR stream in the OPV2V dataset, first modify the `validate_dir`
@@ -71,6 +72,8 @@ Arguments Explanation:
 - `global_sort_detections`: whether to globally sort detections by confidence score. If set to True, it is the mainstream AP computing method, but would increase the tolerance for FP (False Positives). **OPV2V paper does not perform the global sort.** Please choose the consistent AP calculation method in your paper for fair comparison.
 
 The evaluation results  will be dumped in the model directory.
+## Checkpoint
+Fast2comm on OPV2V and V2XSet dataset:(https://www.alipan.com/drive/file/all/68110afe2bb6f633c78247469516648cb086806f)
 
 ## Acknowledgment
 Many thanks to the high-quality dataset and codebase, including [V2XSet](https://drive.google.com/drive/folders/1r5sPiBEvo8Xby-nMaWUTnJIPK6WhY1B6), [OPV2V](https://drive.google.com/drive/folders/1dkDeHlwOVbmgXcDazZvO6TFEZ6V_7WUu), [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) and  [Where2comm](https://github.com/MediaBrain-SJTU/Where2comm.git).
