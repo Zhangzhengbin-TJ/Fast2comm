@@ -1,3 +1,5 @@
+from opencood.models.fuse_modules.fast2comm_fuse import Fast2comm
+
 # Fast2comm
 
 The official implementation of the paper "Fast2comm:Collaborative perception combined with prior knowledge".
@@ -19,7 +21,7 @@ Collaborative perception has the potential to significantly enhance perceptual a
 ## Installation
 Please refer to [data introduction](https://opencood.readthedocs.io/en/latest/md_files/data_intro.html)
 and [installation](https://opencood.readthedocs.io/en/latest/md_files/installation.html) guide to prepare
-data and install OpenCOOD. To see more details of OPV2V data, please check [our website.](https://mobility-lab.seas.ucla.edu/opv2v/
+data and install OpenCOOD. To see more details of OPV2V data, please check [the website.](https://mobility-lab.seas.ucla.edu/opv2v/)
 
 ## Supported multi-agent perception dataset:
   - [x] [OPV2V [ICRA2022]](https://mobility-lab.seas.ucla.edu/opv2v/)
@@ -31,7 +33,7 @@ To quickly visualize the LiDAR stream in the OPV2V dataset, first modify the `va
 in your `opencood/hypes_yaml/visualization.yaml` to the opv2v data path on your local machine, e.g. `opv2v/validate`,
 and the run the following commond:
 ```python
-cd ~/OpenCOOD
+cd ~/Fast2comm
 python opencood/visualization/vis_data_sequence.py [--color_mode ${COLOR_RENDERING_MODE}]
 ```
 Arguments Explanation:
@@ -39,7 +41,7 @@ Arguments Explanation:
 
 
 ### Train your model
-OpenCOOD uses yaml file to configure all the parameters for training. To train your own model
+Fast2comm uses yaml file to configure all the parameters for training. To train your own model
 from scratch or a continued checkpoint, run the following commonds:
 ```python
 python opencood/tools/train.py --hypes_yaml ${CONFIG_FILE} [--model_dir  ${CHECKPOINT_FOLDER} --half]
@@ -73,7 +75,7 @@ Arguments Explanation:
 
 The evaluation results  will be dumped in the model directory.
 ## Checkpoint
-Fast2comm on OPV2V and V2XSet dataset:(https://www.alipan.com/drive/file/all/68110afe2bb6f633c78247469516648cb086806f)
+Fast2comm on OPV2V and V2XSet dataset:(https://www.alipan.com/t/DXPTl3LcDnQ180Gkimec)
 
 ## Acknowledgment
 Many thanks to the high-quality dataset and codebase, including [V2XSet](https://drive.google.com/drive/folders/1r5sPiBEvo8Xby-nMaWUTnJIPK6WhY1B6), [OPV2V](https://drive.google.com/drive/folders/1dkDeHlwOVbmgXcDazZvO6TFEZ6V_7WUu), [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) and  [Where2comm](https://github.com/MediaBrain-SJTU/Where2comm.git).
