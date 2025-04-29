@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
   <img src="images/opencood.png" width="600"/>
   <div>&nbsp;</div>
@@ -264,3 +265,7 @@ Runsheng Xu*, Hao Xiang*, Zhengzhong Tu*, Xin Xia, Ming-Hsuan Yang, Jiaqi Ma <br
 Runsheng Xu*, Hao Xiang*, Xin Xia, Jinlong Li, Jiaqi Ma <br>
 *ICRA2022* <br>
 [[Paper]](https://arxiv.org/abs/2109.07644) [[Website]](https://mobility-lab.seas.ucla.edu/opv2v/) [[Code]](https://github.com/DerrickXuNu/OpenCOOD)
+=======
+# Fast2comm
+Fast2comm: Collaborative perception combined with prior knowledge
+>>>>>>> 302811ff824bbfa3d50c184685783062bbed9467
