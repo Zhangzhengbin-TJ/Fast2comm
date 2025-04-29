@@ -1,8 +1,13 @@
 # Fast2comm
 
 The official implementation of the paper "Fast2comm:Collaborative perception combined with prior knowledge".
-![ERMVP_Overview](https://github.com/Zhangzhengbin-TJ/Fast2comm/images/OverallModel.png)
-![RESULTS](https://github.com/Zhangzhengbin-TJ/Fast2comm/images/results.png)
+<div align="center">
+  <img src="images/OverallModel.png" width="600"/>
+  <div>&nbsp;</div>
+  <img src="images/results.png" width="600"/>
+  <div>&nbsp;</div>
+</div>
+
 > [**Fast2comm:Collaborative perception combined with prior knowledge**]          
 >  Zhengbin Zhang, Yan Wu\*, Hongkun Zhang<br>
 
