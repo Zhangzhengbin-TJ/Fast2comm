@@ -1,2 +1,2 @@
-# Fastercomm
-Fastercomm: Collaborative perception combined with prior knowledge
+# Fast2comm
+Fast2comm: Collaborative perception combined with prior knowledge
