@@ -75,7 +75,7 @@ Arguments Explanation:
 
 The evaluation results  will be dumped in the model directory.
 ## Checkpoint
-Fast2comm on OPV2V and V2XSet dataset:(https://www.alipan.com/t/DXPTl3LcDnQ180Gkimec)
+Fast2comm on OPV2V and V2XSet dataset:(链接: https://pan.baidu.com/s/1NpSCcQNtKMbfQ7YFYNbUlw?pwd=4u9g 提取码: 4u9g )
 
 ## Acknowledgment
 Many thanks to the high-quality dataset and codebase, including [V2XSet](https://drive.google.com/drive/folders/1r5sPiBEvo8Xby-nMaWUTnJIPK6WhY1B6), [OPV2V](https://drive.google.com/drive/folders/1dkDeHlwOVbmgXcDazZvO6TFEZ6V_7WUu), [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) and  [Where2comm](https://github.com/MediaBrain-SJTU/Where2comm.git).
