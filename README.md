@@ -1,5 +1,3 @@
-from opencood.models.fuse_modules.fast2comm_fuse import Fast2comm
-
 # Fast2comm
 
 The official implementation of the paper "Fast2comm:Collaborative perception combined with prior knowledge".
